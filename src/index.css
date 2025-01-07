@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: "Sour Gummy"
+}
+/* --SCROLLBAR-- */
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 0;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:  #4d7c0f;
+}
